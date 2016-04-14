@@ -3,7 +3,7 @@ $(function($) {
 	var viewport = { x: $('body').width(), y: $('body').height() }
 	var range = { x: 0, y: 0 };
 	var percent = { x: 0, y: 0 };
-	var sensitivity = {x: 0.085, y: 0.085};
+	var sensitivity = {x: 0.085, y: 0.225};
 
 	$(document).mousemove(function (event) {
 
